@@ -1,0 +1,20 @@
+{
+  "name": "lloydsbranchservice",
+  "version": "1.0.0",
+  "description": "lloyds branch service",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "author": "Richard Demeny",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "axios-mock-adapter": "^1.20.0",
+    "express": "^4.18.1",
+    "jest": "^28.1.0",
+    "joi": "^17.6.0",
+    "supertest": "^6.2.3"
+  }
+}
